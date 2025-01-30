@@ -13,10 +13,9 @@ const Home = () => {
             setHeader(Object.keys(data[0]));
     });
     }, [])
-    
+
     return (
         <>
-            <h2>This is your Home page</h2>
             <p>you can view your player details here</p>
             <div className="App">
                 <table>
