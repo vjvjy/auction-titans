@@ -1,13 +1,13 @@
 .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start; /* Aligns items to the top */
     padding: 20px;
 }
 
 .table-container {
-    flex: 1;
-    max-width: 70%;
+    width: 70%; /* Adjust width as needed */
+    text-align: left;
 }
 
 .heading {
@@ -37,12 +37,14 @@
 }
 
 .auction-btn {
+    height: fit-content;
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 20px; /* Space from the table */
 }
 
 .auction-btn:hover {

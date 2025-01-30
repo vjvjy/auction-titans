@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+import "./Home.css"
 const Home = () => {
     const [players, setPlayers] = useState([]);
     const [header, setHeader] = useState([]);

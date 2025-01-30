@@ -6,7 +6,7 @@ import Home from './Auction/components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <Provider store={store}> */}
         <BrowserRouter>
         <Routes>
